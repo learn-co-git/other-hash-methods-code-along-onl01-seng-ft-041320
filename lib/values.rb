@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   new_array = []
-    new_array << groceries.values.flatten
-    return new_array
+    return groceries.values.flatten
+    
 end
